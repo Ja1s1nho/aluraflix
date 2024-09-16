@@ -1,0 +1,62 @@
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px; /* Adiciona margem inferior ao corpo da página */
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(9, 27, 63);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px; /* Adiciona margem superior à seção categoria */
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228); /* Cor do título da categoria */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5; /* Torna as imagens opacas */
+    height: 200px; /* Define a altura das imagens */
+    border: 1px solid green; /* Adiciona uma borda verde ao redor das imagens */
+    transition: opacity 0.3s, border-color 0.3s; /* Adiciona uma transição suave para a opacidade e a cor da borda */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0; /* Remove a opacidade ao passar o mouse */
+    border-color: yellow; /* Altera a cor da borda ao passar o mouse */
+}
